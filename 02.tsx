@@ -1,3 +1,5 @@
+import React from 'react'
+
 type TextProps<C extends React.ElementType> = {
   as?: C;
   children: React.ReactNode;

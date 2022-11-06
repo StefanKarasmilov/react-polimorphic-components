@@ -1,11 +1,13 @@
+import React from 'react'
+
 export const Text = <C extends React.ElementType>({
   as,
-  children,
+  children
 }: {
   as?: C;
   children: React.ReactNode;
 }) => {
-  const Component = as || "span";
+  const Component = as || 'span'
 
-  return <Component>{children}</Component>;
-};
+  return <Component>{children}</Component>
+}
